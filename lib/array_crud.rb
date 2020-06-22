@@ -24,7 +24,7 @@ end
 
 
 def retrieve_element_from_index(array, index)
-  array.index(2)
+  array.index[2]
 end
 
 
