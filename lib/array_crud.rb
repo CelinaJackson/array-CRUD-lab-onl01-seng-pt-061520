@@ -27,11 +27,8 @@ def retrieve_element_from_index(array, index)
   array[2]
 end
 
-
-
-def retrieve_first_element_from_array
-  colors = ["red", "yellow", "blue", "green"]
-  colors.first
+def retrieve_first_element_from_array(array)
+  array.first
 end
 
 
