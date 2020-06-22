@@ -23,10 +23,8 @@ def remove_element_from_start_of_array(array)
 end
 
 
-
-def retrieve_element_from_index
-  colors = ["red", "yellow", "blue", "green"]
-  colors[2]
+def retrieve_element_from_index(array, element)
+  array.index(element)
 end
 
 
